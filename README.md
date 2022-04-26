@@ -1,3 +1,5 @@
+# CCXT: Ichimoku Strategy - Backtesting Script and Trading Bot
+
 ### Strategy
 
     ENTRY: If candle closes as green and ichimoku conversion line crosses above base line, wait and BUY at the close of second candle.
