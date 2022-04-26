@@ -1,14 +1,3 @@
-"""
-STRATEGY
-
-ENTRY: If candle closes as green and ichimoku conversion line crosses above base line, wait and BUY at the close of second candle.
-
-TAKE PROFIT: Sell at the first closing where profit is more than 0.01%
-
-Time frame: 15 Minute
-
-"""
-
 import logging
 import ccxt
 import pandas as pd
