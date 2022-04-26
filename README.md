@@ -6,7 +6,6 @@
 
     Time frame: 15 Minute
 
-
 ### Backtest 
 To the stategy with different settings and pairs, please refer to ***backtest.ipynb***
 
