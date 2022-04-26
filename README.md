@@ -7,7 +7,7 @@
     Time frame: 15 Minute
 
 ### Backtest 
-To the stategy with different settings and pairs, please refer to ***backtest.ipynb***
+To test the stategy with different settings and pairs, please refer to ***backtest.ipynb***
 
 ### Run the Bot
 Enter you API keys to ***config.py*** and run ***bot.py***
