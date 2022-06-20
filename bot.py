@@ -74,6 +74,7 @@ def bot():
 
 run = True
 
+# Run the bot in every 15 minutes
 while True:
     if dt.now().minute % 15 == 0 and run:
         bot()
