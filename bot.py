@@ -19,14 +19,14 @@ exchange = ccxt.ftx({
     'secret': API_SECRET,
 })
 exchange.load_markets()
-
 SYMBOL = 'BTCUSD'
-
 in_position = False
 ENTRY_PRICE = 0
 USD_AMOUNT_TO_SPEND = 100
 sellsize = 0
 buy_quote_quantity = 0
+
+
 def bot():
     global sellsize, in_position, buy_quote_quantity
     data = exchange.fetch_ohlcv(symbol=SYMBOL, timeframe='15m', limit=100)
@@ -75,7 +75,6 @@ def bot():
 run = True
 
 while True:
-    # Run at every 15 minute
     if dt.now().minute % 15 == 0 and run:
         bot()
         run = False
